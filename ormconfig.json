@@ -1,0 +1,19 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "admin",
+    "password": "simplon",
+    "database": "db_projet",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+       "entities/**/*.ts"
+    ],
+    "migrations": [
+       "migration/**/*.ts"
+    ],
+    "subscribers": [
+       "subscriber/**/*.ts"
+    ]
+ }
